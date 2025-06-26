@@ -11,6 +11,15 @@ public class Main {
         Danilo.city = "Recife";
         Danilo.age = 21;
 
+        //Aplicando metodo aos meus objetos, metodo de comprimentar
+        Danilo.greet();
+
+        String  callingMethod = Danilo.iamDeveloper();
+        System.out.println(callingMethod);
+
+        int remainingTime = Danilo.retirementAge(60);
+        System.out.println("Você tem: " + Danilo.age + " anos, então faltam: " + remainingTime + " anos para se aposentar.");
+
         //Criando usuario2
 
         User Rebeca = new User();
