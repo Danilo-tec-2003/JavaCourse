@@ -3,39 +3,52 @@ package intermediate_level;
 public class Main {
     public static void main(String[] args) {
 
-        //Criando usuario1 a partir da class User.java (com objetos)
+        // --- CONVENÇÃO: Nomes de variáveis começam com letra minúscula ---
 
-        Developer Danilo = new Developer(); //inicializando o objeto e declarando valores
+        Developer danilo = new Developer();
+        danilo.name = "Danilo Mendes";
+        danilo.city = "Recife";
+        danilo.age = 21;
 
-        Danilo.name = "Danilo Mendes";
-        Danilo.city = "Recife";
-        Danilo.age = 21;
-        Danilo.iamDeveloper();
+        SocialWorker rebeca = new SocialWorker();
+        rebeca.name = "Rebeca Nascimento";
+        rebeca.city = "Recife";
+        rebeca.age = 24;
 
-        //Criando usuario2
+        Filmmaker yane = new Filmmaker();
+        yane.name = "Yane Mendes";
+        yane.city = "Recife";
+        yane.age = 35;
 
-        SocialWorker Rebeca = new SocialWorker();
+        Designer edilene = new Designer();
+        edilene.name = "Edilene Mendes";
+        edilene.city = "Recife";
+        edilene.age = 28;
 
-        Rebeca.name = "Rebeca Nascimento";
-        Rebeca.city = "Recife";
-        Rebeca.age = 24;
-        Rebeca.iamSocialWorker();
+        CleaningLady ivanice = new CleaningLady();
+        ivanice.name = "Ivanice Mendes";
+        ivanice.city = "Recife";
+        ivanice.age = 55;
 
-        //Criando usuario3
+        DanteSon dante = new DanteSon();
+        dante.name = "Dante Mendes do Nascimento";
+        dante.city = "Recife";
+        dante.age = 1;
 
-        Filmmaker Yane = new Filmmaker();
+        // --- AÇÃO: Vamos chamar os métodos para ver o resultado ---
+        System.out.println("--- Apresentações ---");
+        danilo.iamDeveloper();
+        rebeca.iamSocialWorker();
+        edilene.iamDesigner();
+        ivanice.iamCleaningLady();
 
-        Yane.name = "Yane Mendes";
-        Yane.city = "Recife";
-        Yane.age = 35;
-        Yane.iamFilmmaker();
+        System.out.println("\n--- Características do Casal e Filho ---");
+        danilo.LightEyes();
+        rebeca.SkinColor();
 
-        //Criando usuario4
-
-        Designer Edilene = new Designer();
-        Edilene.name = "Edilene Mendes";
-        Edilene.city = "Recife";
-        Edilene.age = 28;
-        Edilene.iamDesigner();
+        System.out.println("\n--- Características do Filho ---");
+        System.out.println("Nome: " + dante.name + ", Idade: " + dante.age + " ano.");
+        dante.LightEyes(); // Linha completada
+        dante.SkinColor(); // Linha completada
     }
 }
