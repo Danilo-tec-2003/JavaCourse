@@ -1,7 +1,5 @@
 package intermediate_level.inheritance;
 
-import intermediate_level.characteristicCouple;
-
 public class Developer extends User implements characteristicCouple {
 
     //Metodo String vai ter que retornar uma String, onde é necessario um retorno

@@ -1,8 +1,6 @@
 // Arquivo: DanteSon.java
 package intermediate_level.inheritance;
 
-import intermediate_level.characteristicCouple;
-
 public class DanteSon extends User implements characteristicCouple {
 
 
