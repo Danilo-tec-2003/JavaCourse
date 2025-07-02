@@ -5,5 +5,4 @@ public class User {
     String city;
     int age;
 
-
 }
