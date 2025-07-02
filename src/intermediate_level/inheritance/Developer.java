@@ -1,4 +1,6 @@
-package intermediate_level;
+package intermediate_level.inheritance;
+
+import intermediate_level.characteristicCouple;
 
 public class Developer extends User implements characteristicCouple {
 

@@ -1,4 +1,4 @@
-package intermediate_level;
+package intermediate_level.inheritance;
 
 public class User {
     String name;

@@ -1,4 +1,4 @@
-package intermediate_level;
+package intermediate_level.inheritance;
 
 public class Filmmaker extends User {
     public void iamFilmmaker() {

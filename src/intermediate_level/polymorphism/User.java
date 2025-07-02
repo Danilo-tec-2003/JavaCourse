@@ -1,4 +1,4 @@
-package intermediate_level.polimorfismo;
+package intermediate_level.polymorphism;
 
 public class User {
     String name;
