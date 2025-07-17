@@ -1,0 +1,30 @@
+Desafio 1: Personagens de um Jogo
+Crie uma classe abstrata Personagem com:
+
+Atributos: nome (String), pontosDeVida (int), forca (int).
+
+Construtor para inicializar os atributos.
+
+Método abstrato: usarHabilidadeEspecial(Personagem alvo).
+
+Método concreto: atacar(Personagem alvo) que causa um dano no alvo igual à forca do atacante.
+
+Método concreto: receberDano(int dano) que subtrai o dano dos pontosDeVida.
+
+Método concreto: exibirInfo() que mostra o nome e os pontos de vida.
+
+Crie duas subclasses:
+
+Guerreiro: Sua habilidade especial (usarHabilidadeEspecial) é um "Ataque Furioso" que causa o dobro do dano da sua força.
+
+Curandeiro: Sua habilidade especial é "Curar", que restaura 25 pontos de vida do alvo (alvo.receberDano(-25)).
+
+No main, crie um Guerreiro e um Curandeiro. Simule uma pequena batalha:
+
+O Guerreiro ataca o Curandeiro.
+
+O Curandeiro se cura.
+
+O Guerreiro usa sua habilidade especial no Curandeiro.
+
+Exiba as informações de ambos após cada ação para ver o resultado.

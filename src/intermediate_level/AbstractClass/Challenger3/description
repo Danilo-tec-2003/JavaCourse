@@ -1,0 +1,19 @@
+Desafio 3: Figuras Geométricas
+Crie uma classe abstrata Figura com:
+
+Um atributo cor (String).
+
+Um construtor que inicialize a cor.
+
+Um método abstrato calcularArea() que retorna um double.
+
+Um método concreto getCor() que retorna a cor.
+
+Crie duas subclasses:
+
+Retangulo: Com atributos largura e altura. Implemente o calcularArea().
+
+Circulo: Com atributo raio. Implemente o calcularArea() (use Math.PI).
+
+No método main, crie um Retangulo e um Circulo e imprima a cor e a área de cada um.
+

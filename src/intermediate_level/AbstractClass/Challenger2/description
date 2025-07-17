@@ -1,0 +1,18 @@
+Desafio 2: Contas Bancárias
+Crie uma classe abstrata Conta com:
+
+Atributos protegidos: numeroDaConta (String) e saldo (double).
+
+Um construtor para inicializar o número da conta e o saldo.
+
+Métodos abstratos: sacar(double valor) e depositar(double valor).
+
+Um método concreto: consultarSaldo() que imprime o saldo atual.
+
+Crie duas subclasses:
+
+ContaCorrente: Ao sacar, desconte uma taxa fixa de R$ 0,50 do saldo.
+
+ContaPoupanca: Ao depositar, adicione um bônus de 1% sobre o valor depositado.
+
+No main, crie uma conta de cada tipo. Realize um saque e um depósito em cada uma e consulte o saldo final para verificar se as regras foram aplicadas corretamente.
