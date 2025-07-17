@@ -1,0 +1,12 @@
+Desafio 1: Expandindo a Classe Produto
+Crie uma classe Produto.
+
+Atributos Iniciais: codigo (int), nome (String) e preco (double).
+
+Primeiro Construtor: Crie um construtor que inicialize esses três atributos.
+
+Novos Atributos: Adicione os atributos estoque (int) e categoria (String).
+
+Sobrecarga de Construtor: Crie um segundo construtor que aceite todos os cinco atributos (codigo, nome, preco, estoque, categoria). Ele deve usar this() para chamar o primeiro construtor.
+
+Método exibirProduto(): Crie um método que imprima todos os detalhes do produto de forma organizada.

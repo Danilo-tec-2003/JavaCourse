@@ -1,0 +1,12 @@
+Desafio 2: Métodos de Venda e Enum StatusPedido
+Continue com a sua classe Produto.
+
+Enum StatusPedido: Crie um Enum chamado StatusPedido com os valores: PROCESSANDO, APROVADO, ENVIADO, ENTREGUE, CANCELADO.
+
+Sobrecarga de Método: Crie um método chamado vender.
+
+A primeira versão, vender(int quantidade), deve simplesmente diminuir a quantidade do estoque e retornar true se a venda for bem-sucedida (estoque suficiente) ou false caso contrário.
+
+A segunda versão (sobrecarregada), vender(int quantidade, String cliente), deve fazer o mesmo que a primeira, mas também imprimir uma mensagem como: "Venda de [quantidade] unidades do produto [nome do produto] aprovada para o cliente [cliente]."
+
+//TODO: Dentro do método vender, adicione um comentário //TODO para lembrá-lo de "implementar a lógica de notificação para o setor de logística" no futuro.

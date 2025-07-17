@@ -1,0 +1,10 @@
+Desafio 3: Classe Pedido
+Junte tudo em uma classe Pedido.
+
+Atributos: id (int), produto (do tipo Produto), quantidade (int) e status (do tipo StatusPedido).
+
+Construtor: Crie um construtor para inicializar esses atributos. O status inicial de todo pedido deve ser PROCESSANDO.
+
+Método aprovarPedido(): Crie um método que tente realizar a venda usando o método produto.vender(quantidade). Se a venda for bem-sucedida, o status do pedido deve mudar para APROVADO. Caso contrário, deve mudar para CANCELADO.
+
+Método exibirResumo(): Crie um método que mostre um resumo do pedido, incluindo os detalhes do produto e o status atual do pedido.
