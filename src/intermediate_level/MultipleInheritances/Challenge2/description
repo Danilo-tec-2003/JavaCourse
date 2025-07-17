@@ -1,0 +1,10 @@
+Desafio 2: Instrumentos Musicais com default methods
+Crie uma interface InstrumentoDeCorda com um método afinar() e um default method chamado tocarAcorde(String acorde) que imprime "Tocando o acorde [acorde] nas cordas.".
+
+Crie uma interface InstrumentoEletronico com um método conectarEnergia() e um default method também chamado tocarAcorde(String acorde) que imprime "Sintetizando o som do acorde [acorde].".
+
+Crie uma classe GuitarraEletrica que implementa InstrumentoDeCorda e InstrumentoEletronico.
+
+Resolva o conflito do default method tocarAcorde na classe GuitarraEletrica, criando uma implementação que imprima algo como "Guitarra conectada! Tocando o acorde [acorde] com distorção!".
+
+Adicione um //TODO na sua implementação de tocarAcorde para "Adicionar diferentes tipos de distorção no futuro".

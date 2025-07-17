@@ -1,0 +1,10 @@
+Desafio 1: Veículos e suas Capacidades
+Crie duas interfaces: Motorizado e Anfibio.
+
+A interface Motorizado deve ter os métodos ligarMotor() e desligarMotor().
+
+A interface Anfibio deve ter os métodos entrarNaAgua() e sairDaAgua().
+
+Crie uma classe JipeMilitar que implementa ambas as interfaces. Dê implementações simples com System.out.println() para cada método.
+
+Crie uma classe de teste e demonstre que um objeto JipeMilitar pode ser tratado tanto como Motorizado quanto como Anfibio.

@@ -1,0 +1,10 @@
+Desafio 3: Sistema de Arquivos
+Crie uma interface Legivel com um método ler() que retorna uma String.
+
+Crie uma interface Gravavel com um método escrever(String dados) e um default method apagar() que imprime "Conteúdo apagado.".
+
+Crie uma classe ArquivoDeTexto que implementa Legivel e Gravavel. Ela deve ter um atributo privado conteudo (String). O método ler retorna o conteúdo e escrever o altera.
+
+Crie uma classe ArquivoDeLog que implementa apenas Gravavel. O método escrever deve adicionar os dados a uma lista interna de logs, em vez de sobrescrever. Você terá que sobrescrever o método apagar() para proibir a ação, imprimindo "ERRO: Logs não podem ser apagados.".
+
+Crie uma classe de teste que use polimorfismo para manipular uma lista de objetos Gravavel, mostrando que é possível chamar escrever e apagar em ambos os tipos de arquivo e obter comportamentos diferentes.
