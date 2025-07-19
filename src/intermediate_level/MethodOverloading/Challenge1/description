@@ -1,0 +1,10 @@
+Exercício 1: Mensagens Formatadas
+
+Crie um método chamado exibir. Este método deve ser sobrecarregado para funcionar das seguintes maneiras:
+
+Uma versão que recebe uma String e a imprime no console com o prefixo "INFO: ".
+
+Uma versão que recebe uma String e um int. Ela deve imprimir a mensagem no formato "AVISO Nível [int]:
+[String]".
+
+Uma versão que recebe um double e o imprime formatado como um valor monetário (ex: "Valor: R$ 150,75").

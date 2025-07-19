@@ -1,0 +1,16 @@
+Exercício 2: Geometria Simples
+
+Crie um método chamado calcularArea. Este método deve ser sobrecarregado para calcular a área de diferentes formas geométricas:
+
+Uma versão que recebe um lado (double) e calcula a área de um quadrado. A fórmula é lado
+cdotlado.
+
+Uma versão que recebe a base e a altura (double, double) e calcula a área de um retângulo. A fórmula é base
+cdotaltura.
+
+Uma versão que recebe o raio (double) e calcula a área de um círculo. A fórmula é
+pi
+cdotraio
+2
+ . Você pode usar Math.PI para o valor de
+pi.
