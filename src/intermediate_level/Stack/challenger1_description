@@ -1,0 +1,36 @@
+Desafio Prático: Simulador de Navegador Web
+Agora, vamos colocar seu conhecimento em prática! Você vai criar um sistema simples que simula o histórico de navegação de um navegador web, utilizando as estruturas que estudou.
+
+O Desafio:
+
+Crie uma classe Navegador em Java que tenha as seguintes funcionalidades:
+
+Visitar uma nova página:
+
+Um método visitar(String url) deve adicionar uma nova URL ao histórico de navegação.
+
+Quando você visita uma nova página, o histórico de "avançar" deve ser limpo.
+
+Voltar para a página anterior:
+
+Um método voltar() deve mover a página atual para o histórico de "avançar" e definir a página anterior como a atual.
+
+Se não houver página anterior, deve informar ao usuário.
+
+Avançar para a próxima página:
+
+Um método avançar() deve mover a página atual de volta para o histórico de "voltar" e pegar a próxima página do histórico de "avançar".
+
+Se não houver página para avançar, deve informar ao usuário.
+
+Mostrar a página atual:
+
+Um método paginaAtual() deve exibir a URL da página em que o usuário está no momento.
+
+Dicas de Estrutura:
+
+Use uma Stack<String> para o histórico de "voltar" (as páginas que você já visitou).
+
+Use outra Stack<String> para o histórico de "avançar" (as páginas que você pode visitar novamente após ter voltado).
+
+A "página atual" pode ser o elemento no topo da pilha de "voltar".
